@@ -1,0 +1,12 @@
+# Please notice that any bazel targets and definitions in this repository are currently experimental
+# and for internal use only.
+
+workspace(name = "vulcode")
+
+load("//misc/bazel:workspace.bzl", "vulcode_workspace")
+
+vulcode_workspace()
+
+load("//misc/bazel:workspace_deps.bzl", "vulcode_workspace_deps")
+
+bulcode_workspace_deps()
